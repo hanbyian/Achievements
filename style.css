@@ -1,0 +1,91 @@
+.title {
+    margin: 10px 20px;
+    padding: 10px;
+    border: 3px orange solid;
+    margin: auto;
+    padding: auto;
+    background-color: white;
+    color: orange;
+    font-size: 20pt;
+    text-align: center;
+}
+.navbar ul{
+    margin: 30px;
+    text-align: center;
+    white-space: nowrap;
+}
+.navbar a:hover{
+    background-color: orange;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: orange;
+    color: orange;
+    padding: 10px 20px;
+    border: orange 3px solid;
+    background-color: white;
+}
+.navbar li{
+    margin: 10px 20px;
+    list-style-type: none;
+    display: inline;
+}
+.main-text{
+    padding-bottom: 100px;
+    margin: 10px 100px;
+    border: 3px orange solid;
+    background-color: white;
+
+}
+.main-text li{
+    color: orange;
+    font-size: 18pt;
+    list-style-type:circle;
+}
+#description{
+    color: orange;
+    font-size: 18pt;
+    padding-left: 20px;
+}
+#description h3{
+    font-size: 23px;
+    padding-left: 20px;
+}
+@media(max-width: 1020px){
+    .navbar li{
+        display: block;
+        margin-left: 0;
+    }
+    .navbar ul{
+        text-align: left;
+        padding-left: 0;
+        margin-left: 0px;
+    }
+    .navbar a{
+        padding: 2px 10px;
+    }
+}
+.comment-form{
+    margin: 10px 100px;
+    border: 3px orange solid;
+    background-color: white;
+    padding-left: 10px;
+    color: orange;
+    font-size: 18px;
+}
+#submit-button{
+    color: orange;
+}
+#comments{
+    margin: 10px 100px;
+    border: 3px orange solid;
+    background-color: white;
+    color: orange;
+    font-size: 18px;
+    padding-left: 5px;
+}
+#comments li{
+    list-style-type: circle;
+    padding-left: 5px;
+}
